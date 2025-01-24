@@ -5,12 +5,11 @@ import database
 
 ADMIN_ID = 406675702
 CHAT_ID = -1001934227821
-MY_ID = 6148439050
+MY_ID = 5726620258
 bot = Client(name="AutoReplyTurboCars",
              api_id=19584363,
              api_hash="c8247fbf45c56ca820c5b44b3ae78abf",
-             phone_number="+79595151705")
-
+             phone_number="+79497545836")
 
 
 # хендлер входящих сообщений от пользователя и админа группы

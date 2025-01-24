@@ -45,7 +45,7 @@ def add_users(user_id, id_profi) -> None:
         db.commit()
 
 
-def zeroing_users(user_id, id_profi):
+def zeroing_users(id_profi):
     with sqlite3.connect("../database.db") as db:
         cursor = db.cursor()
         query = "UPDATE Users SET is_first = ? WHERE id_profi = ?;"
